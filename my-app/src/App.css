@@ -1,0 +1,21 @@
+ .App{
+      
+     
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:  rgb(255, 255, 255);
+    background-color: rgb(58, 60, 65);
+   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    display: table;
+    text-align: center;
+    max-height: max-content;
+    padding: 20px;
+    border-radius:10% ;
+    max-width: max-content;
+ 
+    
+ }
+ 

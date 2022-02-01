@@ -1,0 +1,80 @@
+.List-items{
+    
+    font-size: large;
+    
+     
+    display: flex;
+}
+.complete{
+    text-decoration-style: solid;
+    text-decoration-line: line-through;
+    text-decoration-color:red ;
+    opacity: 0.6;
+  
+}
+
+.form{
+     
+    margin: 3%  0;
+}
+.todoList{
+     
+    outline: none;
+    border:none;
+    background: transparent;
+    color: rgb(255, 255, 255);
+}
+.btn1{
+    background: transparent;
+    border: none;
+    color: rgb(197, 197, 164);
+}
+.btn1:hover{
+    color: yellow;
+}
+.btn2{
+     color: rgb(197, 197, 164);
+    background: transparent;
+    border: none;
+}
+.btn3{
+    background: transparent;
+    border: none;
+    color: rgb(197, 197, 164);
+}
+.btn4{
+    background: transparent;
+    border: none;
+    color: rgb(197, 197, 164);
+}
+.btn2:hover{
+    color: rgb(144, 238, 4);
+}
+.btn3:hover{
+    color: rgb(56, 180, 189);
+}
+.btn4:hover{
+    color: red;
+}
+.todo{
+    
+        max-width: max-content;
+        color: white;
+       border:none;
+       font-family:cursive;
+       background-color: transparent;
+       border-bottom: 3px solid #f14c4c;
+       padding: 5px 10px;
+       outline: none
+      
+     
+
+}
+.todo:focus {
+    border-color: rgb(3, 102, 184)
+  }
+  [placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 0.5s 0.5s ease; 
+    text-indent: -100%;
+    opacity: 1;
+  }
